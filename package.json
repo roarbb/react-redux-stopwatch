@@ -1,5 +1,5 @@
 {
-  "name": "Stopwatch Example",
+  "name": "Stopwatch-Example",
   "version": "1.0.0",
   "description": "Basic React-Redux-ES6 stopwatch example",
   "main": "/src/index.js",
