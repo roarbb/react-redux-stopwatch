@@ -47,9 +47,9 @@ const mapDispatchToProps = (dispatch, ownprops) => {
   }
 };
 
-const StartContainer = connect(
+const ButtonController = connect(
   mapStateToProps,
   mapDispatchToProps
 )(Button);
 
-export default StartContainer
+export default ButtonController

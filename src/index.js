@@ -4,7 +4,7 @@ import {createStore} from 'redux'
 import {Provider} from 'react-redux'
 
 import timerApp from './reducers'
-import StartContainer from './containers/StartContainer'
+import ButtonController from './containers/ButtonController'
 import ClockContainer from './containers/ClockContainer'
 
 require('./styles/main.scss');
@@ -20,9 +20,9 @@ const StopwatchAppRoot = () => (
       <ClockContainer />
       <div className="row text-xs-center">
         <div className="btn-group">
-          <StartContainer label="Start" type="START"/>
-          <StartContainer label="Stop" type="STOP"/>
-          <StartContainer label="Reset" type="RESET"/>
+          <ButtonController label="Start" type="START"/>
+          <ButtonController label="Stop" type="STOP"/>
+          <ButtonController label="Reset" type="RESET"/>
         </div>
       </div>
     </div>
